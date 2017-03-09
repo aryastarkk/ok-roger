@@ -38,22 +38,9 @@ def count(file_name):
     return dict_printer(dic1)
 
 
-# In[70]:
+# In[72]:
 
-print count('alice30.txt')
-
-
-# In[ ]:
-
-
-
-
-# In[ ]:
-
-
-
-
-# In[ ]:
-
-
+text_file = open("output.txt", "w")
+text_file.write(count('alice30.txt'))
+text_file.close()
 
